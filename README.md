@@ -5,3 +5,6 @@ Each keypress has a specific keycode - elements can have class data-key that rep
 
 ## Day 2: Clock
 Each hand is an element, can rotate them by changing their transform attribute - set it to rotate(degree). Get the time with Javascript's Date class, and divide by total units * 360 + 90 to get the number of degrees you are supposed to rotate. Keep in mind that the regular origin of transform is 50%, so the middle of the element, so you have to set transform-origin to 100% in order to rotate from the very right of the element. 
+
+## Day 3: CSS Variables
+Learned how to create CSS variables, and manipulate them using javascript. You can edit variables with documentElement.style.setProperty
