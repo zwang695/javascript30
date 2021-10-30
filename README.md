@@ -8,3 +8,9 @@ Each hand is an element, can rotate them by changing their transform attribute -
 
 ## Day 3: CSS Variables
 Learned how to create CSS variables, and manipulate them using javascript. You can edit variables with documentElement.style.setProperty
+
+## Day 4: Array stuff
+Played around with array functions including reduce, map, sort. 
+
+## Day 5: CSS Flexbox
+Played around with flex containers and flex objects, can have flex in flex in flex.
