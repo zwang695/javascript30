@@ -14,3 +14,6 @@ Played around with array functions including reduce, map, sort.
 
 ## Day 5: CSS Flexbox
 Played around with flex containers and flex objects, can have flex in flex in flex.
+
+## Day 6: Ajax Type Ahead
+Here we created an app where you can filter cities by their name or by state. We had to first fetch the data from the endpoint, which returns a promise (so we have to use then keyword), and then convert the raw data into json (which also returns a promise so thus then keyword), and then push the data into a cities array (extended the json data with ... keyword). We then created a findMatches function, where we filter the cities array we created. We filter it by matching each city against a regex expression of the word currently inserted. We can then create eventlisteners on our html elements, and then turn each element of the array returned by findmatches into a span. We then replace our current suggestions with that html element we created. Key thing i learned from this is how to employ regex expressions in data manipulation with strings. 
